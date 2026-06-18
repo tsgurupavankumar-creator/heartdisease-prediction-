@@ -1,0 +1,1005 @@
+2026-06-18 21:23:16.727 Uvicorn server started on 0.0.0.0:8501
+2026-06-18 21:26:00.059 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:26:19.717 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 787, in code_to_exec
+    _mpa_v1(self._main_script_path)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 171, in _mpa_v1
+    page.run()
+    ~~~~~~~~^^
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\navigation\page.py", line 490, in run
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MURALI\Desktop\aiheart diease_zip\New Folder\pages\5_Model_Training_Center.py", line 5, in <module>
+    from utils.ml_pipeline import prepare_data, train_and_evaluate_models, get_best_model, save_model
+  File "C:\Users\MURALI\Desktop\aiheart diease_zip\New Folder\utils\ml_pipeline.py", line 43, in <module>
+    from imblearn.over_sampling import SMOTE
+ModuleNotFoundError: No module named 'imblearn'
+2026-06-18 21:26:19.725 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 787, in code_to_exec
+    _mpa_v1(self._main_script_path)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 171, in _mpa_v1
+    page.run()
+    ~~~~~~~~^^
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\navigation\page.py", line 490, in run
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MURALI\Desktop\aiheart diease_zip\New Folder\pages\6_Model_Evaluation_Center.py", line 15, in <module>
+    from utils.ml_pipeline import load_model
+  File "C:\Users\MURALI\Desktop\aiheart diease_zip\New Folder\utils\ml_pipeline.py", line 43, in <module>
+    from imblearn.over_sampling import SMOTE
+ModuleNotFoundError: No module named 'imblearn'
+2026-06-18 21:26:51.697 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:26:54.009 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 787, in code_to_exec
+    _mpa_v1(self._main_script_path)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 171, in _mpa_v1
+    page.run()
+    ~~~~~~~~^^
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\navigation\page.py", line 490, in run
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MURALI\Desktop\aiheart diease_zip\New Folder\pages\6_Model_Evaluation_Center.py", line 15, in <module>
+    from utils.ml_pipeline import load_model
+  File "C:\Users\MURALI\Desktop\aiheart diease_zip\New Folder\utils\ml_pipeline.py", line 43, in <module>
+    from imblearn.over_sampling import SMOTE
+ModuleNotFoundError: No module named 'imblearn'
+2026-06-18 21:27:04.792 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:35:40.570 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:35:40.767 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:35:40.869 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:35:40.891 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:36:07.485 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:36:07.797 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:36:07.974 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:36:08.041 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:36:11.650 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator RandomForestClassifier from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2026-06-18 21:36:14.303 The widget with key "input_age" was created with a default value but also had its value set via the Session State API.
+Stack (most recent call last):
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\threading.py", line 1044, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\threading.py", line 1082, in _bootstrap_inner
+    self._context.run(self.run)
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\threading.py", line 1024, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 419, in _run_script_thread
+    self._run_script(request.rerun_data)
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 814, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 787, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 171, in _mpa_v1
+    page.run()
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\navigation\page.py", line 490, in run
+    exec(code, module.__dict__)  # noqa: S102
+  File "C:\Users\MURALI\Desktop\aiheart diease_zip\New Folder\pages\9_Patient_Risk_Prediction.py", line 802, in <module>
+    app()
+  File "C:\Users\MURALI\Desktop\aiheart diease_zip\New Folder\pages\9_Patient_Risk_Prediction.py", line 570, in app
+    inputs[feature] = col.number_input(
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\metrics_util.py", line 698, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\elements\widgets\number_input.py", line 446, in number_input
+    return self._number_input(
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\elements\widgets\number_input.py", line 491, in _number_input
+    check_widget_policies(
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\elements\lib\policies.py", line 187, in check_widget_policies
+    check_session_state_rules(
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\elements\lib\policies.py", line 92, in check_session_state_rules
+    _LOGGER.warning(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator RandomForestClassifier from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2026-06-18 21:37:37.505 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:37:37.863 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:37:38.012 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:37:38.069 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:37:38.633 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:37:38.707 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:37:38.772 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:37:38.785 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator RandomForestClassifier from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2026-06-18 21:43:08.046 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator RandomForestClassifier from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2026-06-18 21:44:24.822 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+2026-06-18 21:44:27.445 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:44:28.117 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:44:28.210 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator RandomForestClassifier from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\base.py:463: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.9.0 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2026-06-18 21:50:28.591 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\linear_model\_logistic.py:406: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Windows fatal exception: access violation
+
+Current thread 0x00000d98 (most recent call first):
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 347 in _wmi_query
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 408 in _win32_ver
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 467 in win32_ver
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 1016 in uname
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 1127 in machine
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\_private\utils.py", line 89 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "Windows fatal exception: access violationC:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\__init__.py", line 12 in <module>
+  File "
+
+Current thread 0x00002940 (most recent call first):
+<frozen importlib._bootstrap>"  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 347 in _wmi_query
+  File ", line C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>408 in ", line _win32_ver759
+ in   File exec_module"
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py  File "", line 467<frozen importlib._bootstrap>" in win32_ver
+, line 938  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py in _load_unlocked
+  File "<frozen importlib._bootstrap>", line "1016 in , line 1342uname in _find_and_load_unlocked
+  File 
+"<frozen importlib._bootstrap>  File "", line C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py1371 in ", line 1127 in _find_and_load
+machine
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\__init__.py"  File ", line 746C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\_private\utils.py" in , line 89__getattr__
+ in   File "<module><frozen importlib._bootstrap>
+"  File , line "1431<frozen importlib._bootstrap> in "_handle_fromlist, line 
+491  File " in <frozen importlib._bootstrap>_call_with_frames_removed"
+, line   File 1429" in <frozen importlib._bootstrap_external>_handle_fromlist"
+, line   File 759" in <string>exec_module
+  File ", line "<frozen importlib._bootstrap>", line 1938 in  in <module>_load_unlocked
+
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\_internal.py"  File , line "64<frozen importlib._bootstrap> in "clone_module, line 
+1342 in   File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\numpy\__init__.py", line 9 in _find_and_load_unlocked
+<module>
+  File   File ""<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed<frozen importlib._bootstrap>", line 1371 in 
+  File _find_and_load
+"  File <frozen importlib._bootstrap_external>""C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\__init__.py, line "759, line  in 12exec_module in 
+<module>  File 
+"  File <frozen importlib._bootstrap>""<frozen importlib._bootstrap>, line "938, line  in 491_load_unlocked in 
+_call_with_frames_removed  File 
+"  File <frozen importlib._bootstrap>""<frozen importlib._bootstrap_external>", line 759 in , line 1342exec_module in 
+_find_and_load_unlocked  File 
+"  File <frozen importlib._bootstrap>"", line <frozen importlib._bootstrap>938 in "_load_unlocked, line 1371
+ in _find_and_load  File 
+"  File <frozen importlib._bootstrap>""<frozen importlib._bootstrap>, line ", line 1342491 in  in _find_and_load_unlocked
+_call_with_frames_removed  File 
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\__init__.py""<frozen importlib._bootstrap>", line 1434 in _handle_fromlist
+  File ", line C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_array_api.py746", line 24 in  in __getattr__<module>
+
+  File   File ""<frozen importlib._bootstrap><frozen importlib._bootstrap>"", line , line 4911431 in  in _call_with_frames_removed_handle_fromlist
+
+  File   File ""<frozen importlib._bootstrap_external><frozen importlib._bootstrap>"", line , line 7591429 in  in exec_module_handle_fromlist
+
+  File   File ""<frozen importlib._bootstrap><string>"", line , line 1 in <module>
+938 in   File "_load_unlocked
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\_internal.py"  File ", line <frozen importlib._bootstrap>64" in clone_module, line 
+1342 in   File _find_and_load_unlocked"
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\numpy\__init__.py  File "", line <frozen importlib._bootstrap>9" in , line <module>1371
+ in   File _find_and_load"
+<frozen importlib._bootstrap>  File "", line C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_util.py491" in , line _call_with_frames_removed17
+  File " in <frozen importlib._bootstrap_external><module>"
+, line   File 759 in exec_module"<frozen importlib._bootstrap>
+"  File , line "491<frozen importlib._bootstrap> in "_call_with_frames_removed, line 
+938  File  in "_load_unlocked<frozen importlib._bootstrap_external>
+"  File , line "759 in <frozen importlib._bootstrap>exec_module"
+, line   File 1342" in <frozen importlib._bootstrap>_find_and_load_unlocked"
+, line   File 938" in <frozen importlib._bootstrap>_load_unlocked"
+, line   File 1371" in <frozen importlib._bootstrap>_find_and_load"
+, line   File 1342" in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 491 in <frozen importlib._bootstrap>_call_with_frames_removed"
+, line   File "1371 in <frozen importlib._bootstrap>_find_and_load"
+, line   File 1434" in C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_sputils.py_handle_fromlist"
+, line   File 10" in C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_array_api.py", line <module>
+  File 24" in <frozen importlib._bootstrap><module>"
+, line   File 491"<frozen importlib._bootstrap>", line 491 in  in _call_with_frames_removed
+  File "_call_with_frames_removed
+<frozen importlib._bootstrap_external>  File ""<frozen importlib._bootstrap_external>, line 759" in , line exec_module759
+ in   File exec_module"
+<frozen importlib._bootstrap>  File "", line <frozen importlib._bootstrap>938" in , line _load_unlocked938
+ in   File _load_unlocked"
+<frozen importlib._bootstrap>", line 1342 in   File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked_find_and_load_unlocked
+  File 
+  File "<frozen importlib._bootstrap>", line 1371" in <frozen importlib._bootstrap>"_find_and_load
+  File , line 1371"C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_base.py in "_find_and_load
+, line 8  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_util.py" in <module>, line 17
+ in   File <module>"
+<frozen importlib._bootstrap>  File "", line <frozen importlib._bootstrap>491" in , line _call_with_frames_removed491
+ in _call_with_frames_removed  File "
+<frozen importlib._bootstrap_external>", line 759  File " in exec_module
+<frozen importlib._bootstrap_external>  File ""<frozen importlib._bootstrap>, line 759" in , line exec_module938
+ in   File _load_unlocked"
+<frozen importlib._bootstrap>  File ""<frozen importlib._bootstrap>", line , line 9381342 in  in _load_unlocked_find_and_load_unlocked
+  File 
+"  File <frozen importlib._bootstrap>""<frozen importlib._bootstrap>, line "1371, line  in 1342_find_and_load in 
+_find_and_load_unlocked  File 
+"  File C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\__init__.py""<frozen importlib._bootstrap>, line ", line 1371 in _find_and_load
+  File "307C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_sputils.py in "<module>, line 
+10  File  in "<module><frozen importlib._bootstrap>
+"  File , line "491<frozen importlib._bootstrap> in "_call_with_frames_removed, line 
+  File "<frozen importlib._bootstrap_external>491" in , line _call_with_frames_removed759
+ in   File exec_module"
+<frozen importlib._bootstrap_external>  File "", line 759 in exec_module
+<frozen importlib._bootstrap>", line 938 in   File _load_unlocked"<frozen importlib._bootstrap>
+"  File , line 938 in "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File _load_unlocked
+  File "<frozen importlib._bootstrap>"<frozen importlib._bootstrap>", line "1342, line 1371 in  in _find_and_load_unlocked
+_find_and_load
+  File "  File <frozen importlib._bootstrap>"C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_param_validation.py", line 14 in <module>
+", line   File 1371" in <frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File _find_and_load
+  File "<frozen importlib._bootstrap_external>", line "759C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_base.py in "exec_module, line 
+8  File  in "<module><frozen importlib._bootstrap>
+"  File , line "938<frozen importlib._bootstrap> in "_load_unlocked
+  File , line 491 in "_call_with_frames_removed<frozen importlib._bootstrap>
+  File "", line 1342<frozen importlib._bootstrap_external> in "_find_and_load_unlocked, line 
+759  File  in "exec_module<frozen importlib._bootstrap>
+"  File , line "1371<frozen importlib._bootstrap> in "_find_and_load, line 
+938  File  in "_load_unlockedC:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_chunking.py
+"  File , line "11<frozen importlib._bootstrap> in "<module>, line 
+1342  File  in _find_and_load_unlocked
+"  File "<frozen importlib._bootstrap><frozen importlib._bootstrap>"", line , line 4911371 in  in _call_with_frames_removed_find_and_load
+
+  File   File ""<frozen importlib._bootstrap_external>C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\__init__.py", line "759, line  in 307exec_module in 
+<module>  File 
+"  File <frozen importlib._bootstrap>""<frozen importlib._bootstrap>, line "938, line  in 491_load_unlocked in 
+_call_with_frames_removed  File 
+"  File <frozen importlib._bootstrap>""<frozen importlib._bootstrap_external>, line "1342, line  in 759_find_and_load_unlocked in 
+exec_module  File 
+"  File <frozen importlib._bootstrap>""<frozen importlib._bootstrap>, line "1371, line  in 938_find_and_load in 
+_load_unlocked  File 
+"  File C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\__init__.py", line 9"<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_param_validation.py", line 14 in <module>
+  File " in <module><frozen importlib._bootstrap>", line 
+  File 491 in "_call_with_frames_removed<frozen importlib._bootstrap>", line 
+  File 491 in "<frozen importlib._bootstrap_external>"_call_with_frames_removed, line 
+759 in   File exec_module"
+<frozen importlib._bootstrap_external>
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_chunking.py", line 11 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\__init__.py", line 9 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+Windows fatal exception: access violation
+
+Thread 0x00000d98 (most recent call first):
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 347 in _wmi_query
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 408 in _win32_ver
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 467 in win32_ver
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 1016 in uname
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 1127 in machine
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\_private\utils.py", line 89 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\__init__.py", line 12 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\__init__.py", line 746 in __getattr__
+  File "<frozen importlib._bootstrap>", line 1431 in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 1429 in _handle_fromlist
+  File "<string>", line 1 in <module>
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\_internal.py", line 64 in clone_module
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\numpy\__init__.py", line 9 in <module>
+  File "<frozen importlib._bootstrap>Windows fatal exception: access violation", line 
+
+Thread 0x00002940491 (most recent call first):
+ in   File _call_with_frames_removed"
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py  File "", line <frozen importlib._bootstrap_external>347" in , line _wmi_query759
+ in   File exec_module"
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>"", line , line 1342 in _find_and_load_unlocked
+408 in _win32_ver
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 467 in   File "win32_ver
+<frozen importlib._bootstrap>"  File ", line 1371 in _find_and_loadC:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py"
+  File , line 1016"<frozen importlib._bootstrap> in uname"
+, line   File 491" in C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 1127 in machine_call_with_frames_removed
+
+  File   File ""<frozen importlib._bootstrap>C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\_private\utils.py", line ", line 89 in 1434 in <module>
+_handle_fromlist
+  File "  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_array_api.py"<frozen importlib._bootstrap>", line 491, line 24 in _call_with_frames_removed in <module>
+
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module  File "<frozen importlib._bootstrap>
+  File ", line 491"<frozen importlib._bootstrap> in _call_with_frames_removed", line 
+  File 938 in _load_unlocked
+"<frozen importlib._bootstrap_external>", line   File "759 in exec_module
+  File <frozen importlib._bootstrap>"", line <frozen importlib._bootstrap>1342", line  in _find_and_load_unlocked
+  File "938 in <frozen importlib._bootstrap>", line 1371_load_unlocked in 
+_find_and_load  File "<frozen importlib._bootstrap>", line 1342 in 
+  File _find_and_load_unlocked
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\__init__.py", line 12 in <module>
+"<frozen importlib._bootstrap>", line 1371  File "<frozen importlib._bootstrap> in ", line _find_and_load
+491  File  in _call_with_frames_removed"
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_util.py  File "", line 17<frozen importlib._bootstrap_external> in "<module>, line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 
+  File "938<frozen importlib._bootstrap>", line  in _load_unlocked
+491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File   File "<frozen importlib._bootstrap>", line "<frozen importlib._bootstrap>"1342, line  in _find_and_load_unlocked
+938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line   File "1371 in <frozen importlib._bootstrap>_find_and_load
+", line   File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\__init__.py", line 1342746 in  in _find_and_load_unlocked__getattr__
+  File 
+"  File <frozen importlib._bootstrap>"", line <frozen importlib._bootstrap>", line 1371 in _find_and_load
+1431 in   File _handle_fromlist"
+  File "<frozen importlib._bootstrap>C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_sputils.py"", line , line 1429 in _handle_fromlist
+10  File "<string> in <module>
+"  File , line 1 in "<frozen importlib._bootstrap>", line <module>491
+ in _call_with_frames_removed  File "
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\_internal.py", line <frozen importlib._bootstrap_external>"64 in , line clone_module759 in 
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\numpy\__init__.pyexec_module", line 9 in <module>
+
+  File   File ""<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+<frozen importlib._bootstrap>", line   File 938"<frozen importlib._bootstrap_external>", line 759 in  in _load_unlockedexec_module
+
+  File   File ""<frozen importlib._bootstrap><frozen importlib._bootstrap>"", line , line 1342938 in  in _find_and_load_unlocked_load_unlocked
+  File 
+"  File <frozen importlib._bootstrap>""<frozen importlib._bootstrap>, line 1371 in ", line _find_and_load
+  File 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>"", line C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_base.py1371" in , line _find_and_load8
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+ in <module>
+  File "<frozen importlib._bootstrap>", line 491  File " in <frozen importlib._bootstrap>"_call_with_frames_removed
+, line 1434  File "<frozen importlib._bootstrap_external>", line  in 759 in exec_module
+  File "_handle_fromlist
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_array_api.py", line <frozen importlib._bootstrap>", line 24 in 938 in <module>_load_unlocked
+  File "
+  File <frozen importlib._bootstrap>"<frozen importlib._bootstrap>", line ", line 491 in 1342 in _find_and_load_unlocked_call_with_frames_removed
+  File 
+"  File "<frozen importlib._bootstrap>"<frozen importlib._bootstrap_external>, line 1371 in _find_and_load
+  File ", line 759 in "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\__init__.py", line 307exec_module
+  File "<frozen importlib._bootstrap> in <module>
+  File "<frozen importlib._bootstrap>", line ", line 491 in 938 in _call_with_frames_removed
+  File "_load_unlocked
+  File <frozen importlib._bootstrap_external>", line 759 in exec_module"<frozen importlib._bootstrap>
+  File "<frozen importlib._bootstrap>", line 938 in ", line 1342 in _find_and_load_unlocked
+  File _load_unlocked
+  File "<frozen importlib._bootstrap>""<frozen importlib._bootstrap>, line 1342 in ", line 1371_find_and_load_unlocked
+ in _find_and_load  File "<frozen importlib._bootstrap>", line 
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_util.py", line 17 in <module>
+  File 1371 in _find_and_load"<frozen importlib._bootstrap>
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_param_validation.py", line 491" in , line _call_with_frames_removed
+14  File "<frozen importlib._bootstrap_external>", line 759 in exec_module in <module>
+
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap> in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_sputils.py", line C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_chunking.py", line 11 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "10 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File <frozen importlib._bootstrap>", line 938 in _load_unlocked
+"<frozen importlib._bootstrap>"  File "<frozen importlib._bootstrap>", line , line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\__init__.py", line 91342 in _find_and_load_unlocked
+  File " in <module><frozen importlib._bootstrap>", line 1371
+  File "<frozen importlib._bootstrap>", line 491 in  in _call_with_frames_removed_find_and_load
+
+  File   File ""<frozen importlib._bootstrap_external>C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_base.py", line 759 in exec_module
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+", line 8 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\__init__.py", line 307 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_param_validation.py", line 14 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_chunking.py", line 11 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\__init__.py", line 9 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+Windows fatal exception: access violation
+
+Current thread 0x00003a68 (most recent call first):
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 347 in _wmi_query
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 408 in _win32_ver
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 467 in win32_ver
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 1016 in uname
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 1127 in machine
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\_private\utils.py", line 89 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\__init__.py", line 12 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\__init__.py", line 746 in __getattr__
+  File "<frozen importlib._bootstrap>", line 1431 in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 1429 in _handle_fromlist
+  File "<string>", line 1 in <module>
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\_internal.py", line 64 in clone_module
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\numpy\__init__.py", line 9 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1434 in _handle_fromlist
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_array_api.py", line 24 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_util.py", line 17 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_sputils.py", line 10 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_base.py", line 8 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\__init__.py", line 307 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>Windows fatal exception: "access violation, line 
+
+1371Current thread 0x in 00001cac_find_and_load (most recent call first):
+
+  File   File ""C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.pyC:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_param_validation.py"", line , line 34714 in  in _wmi_query<module>
+
+  File   File ""C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py<frozen importlib._bootstrap>"", line 408 in _win32_ver
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 467 in , line 491win32_ver
+  File  in _call_with_frames_removed
+"C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py  File "", line 1016 in <frozen importlib._bootstrap_external>"uname, line 759 in exec_module
+  File 
+  File ""C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py<frozen importlib._bootstrap>"", line 1127 in , line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line machine
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\_private\utils.py", line 89 in <module>
+  File 1342 in _find_and_load_unlocked
+"<frozen importlib._bootstrap>  File "<frozen importlib._bootstrap>"", line , line 1371491 in  in _find_and_load_call_with_frames_removed
+
+  File   File ""C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_chunking.py<frozen importlib._bootstrap_external>"", line , line 11759 in  in exec_module
+  File "<frozen importlib._bootstrap>", line 938<module>
+ in _load_unlocked
+  File   File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>""<frozen importlib._bootstrap>, line "491, line 1371 in _find_and_load
+ in _call_with_frames_removed  File 
+"  File C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\__init__.py", line "<frozen importlib._bootstrap_external>"12, line  in 759<module> in 
+exec_module
+  File "  File <frozen importlib._bootstrap>", line "<frozen importlib._bootstrap>938 in ", line _load_unlocked
+491  File "<frozen importlib._bootstrap>", line 1342 in  in _call_with_frames_removed
+  File _find_and_load_unlocked
+"  File <frozen importlib._bootstrap_external>""<frozen importlib._bootstrap>, line "759, line  in 1371exec_module in 
+_find_and_load  File 
+"<frozen importlib._bootstrap>  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\__init__.py", line 9 in "<module>, line 
+  File "938 in _load_unlocked
+  File <frozen importlib._bootstrap>""<frozen importlib._bootstrap>", line , line 1342 in 491 in _find_and_load_unlocked_call_with_frames_removed
+  File "
+  File <frozen importlib._bootstrap_external>""<frozen importlib._bootstrap>, line "759, line  in 1371 in _find_and_load
+exec_module  File 
+"
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\__init__.pyCurrent thread's C stack trace (most recent call first):
+"  <cannot get C stack on this system>
+, line 746 in __getattr__
+  File "<frozen importlib._bootstrap>", line 1431 in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 1429 in _handle_fromlist
+  File "<string>", line 1 in <module>
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\_internal.py", line 64 in clone_module
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\numpy\__init__.py", line 9 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1434 in _handle_fromlist
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_array_api.py", line 24 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_util.py", line 17 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342Windows fatal exception: access violation in _find_and_load_unlocked
+
+
+Thread 0x  File "00003a68 (most recent call first):
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py<frozen importlib._bootstrap>"", line 347, line 1371 in _wmi_query in _find_and_load
+  File 
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py"C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_sputils.py", line ", line 408 in 10 in _win32_ver
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py"<module>
+, line 467  File  in "win32_ver<frozen importlib._bootstrap>
+"  File , line "491C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 1016 in uname in _call_with_frames_removed
+
+  File "  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py"  File "<frozen importlib._bootstrap>, line 1127", line  in machine
+  File 938 in _load_unlocked
+"C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\_private\utils.py", line   File "89 in <frozen importlib._bootstrap>"<module>
+  File "<frozen importlib._bootstrap>", line 491 in , line 1342 in _call_with_frames_removed_find_and_load_unlocked
+
+  File   File "<frozen importlib._bootstrap>"<frozen importlib._bootstrap_external>", line ", line 759 in exec_module
+1371 in   File "_find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_base.py"<frozen importlib._bootstrap>, line "8, line  in 938<module> in 
+_load_unlocked
+  File   File "<frozen importlib._bootstrap>""<frozen importlib._bootstrap>", line , line 4911342 in  in _find_and_load_unlocked_call_with_frames_removed
+
+  File "  File "<frozen importlib._bootstrap_external>", line 759<frozen importlib._bootstrap>" in exec_module
+  File "<frozen importlib._bootstrap>", line , line 1371938 in _load_unlocked in _find_and_load
+  File 
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\__init__.py"<frozen importlib._bootstrap>", line 12", line  in <module>
+  File "<frozen importlib._bootstrap>", line 491 in 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>"_call_with_frames_removed, line 1371 in _find_and_load
+
+  File "  File <frozen importlib._bootstrap_external>"C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\__init__.py", line "759 in exec_module
+, line 307 in <module>
+  File   File ""<frozen importlib._bootstrap><frozen importlib._bootstrap>", line 938" in _load_unlocked
+  File "<frozen importlib._bootstrap>, line 491", line  in 1342_call_with_frames_removed
+ in _find_and_load_unlocked
+  File   File ""<frozen importlib._bootstrap><frozen importlib._bootstrap_external>"", line , line 7591371 in  in exec_module_find_and_load
+  File 
+  File "<frozen importlib._bootstrap>"C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\__init__.py", line ", line 746 in 938 in __getattr__
+_load_unlocked  File "
+<frozen importlib._bootstrap>  File "", line <frozen importlib._bootstrap>1431" in , line _handle_fromlist1342 in 
+_find_and_load_unlocked
+  File   File ""<frozen importlib._bootstrap><frozen importlib._bootstrap>"", line , line 14291371 in  in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_param_validation.py_handle_fromlist", line 14 in <module>
+  File "<frozen importlib._bootstrap>", line 
+491  File  in "_call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module<string>"
+, line   File 1" in <frozen importlib._bootstrap><module>"
+, line   File 938" in C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\_internal.py"_load_unlocked, line 
+64  File  in "clone_module
+<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "  File "<frozen importlib._bootstrap>", line C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\numpy\__init__.py1371" in , line _find_and_load9
+ in   File <module>"
+C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_chunking.py  File "", line <frozen importlib._bootstrap>11" in , line <module>491
+ in   File _call_with_frames_removed"
+<frozen importlib._bootstrap>  File ", line 491 in _call_with_frames_removed"
+<frozen importlib._bootstrap_external>  File "", line <frozen importlib._bootstrap_external>759" in , line exec_module759
+ in   File exec_module"
+<frozen importlib._bootstrap>  File "", line <frozen importlib._bootstrap>938" in , line _load_unlocked938
+ in   File _load_unlocked"
+<frozen importlib._bootstrap>  File "", line <frozen importlib._bootstrap>1342 in "_find_and_load_unlocked, line 
+1342  File  in "_find_and_load_unlocked<frozen importlib._bootstrap>
+"  File , line "1371<frozen importlib._bootstrap> in "_find_and_load
+  File "<frozen importlib._bootstrap>", line , line 4911371 in  in _call_with_frames_removed_find_and_load
+
+  File "  File <frozen importlib._bootstrap>""C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\__init__.py, line "1434, line  in 9_handle_fromlist in 
+<module>  File 
+"  File C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_array_api.py""<frozen importlib._bootstrap>, line "24, line  in 491<module> in 
+_call_with_frames_removed  File 
+"  File <frozen importlib._bootstrap>""<frozen importlib._bootstrap_external>, line "491, line  in 759_call_with_frames_removed in 
+exec_module  File 
+"
+<frozen importlib._bootstrap_external>Current thread's C stack trace (most recent call first):
+"  <cannot get C stack on this system>
+, line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_util.py", line 17 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_sputils.py", line 10 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_base.py", line 8 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>Windows fatal exception: access violation", line 759 in 
+
+Thread 0xexec_module
+  File 00001cac (most recent call first):
+  File "<frozen importlib._bootstrap>", line "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 347 in _wmi_query
+", line   File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py"1342 in _find_and_load_unlocked
+  File , line 408"<frozen importlib._bootstrap> in _win32_ver", line 
+  File "1371C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py in _find_and_load", line 467 in 
+  File win32_ver
+"  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\__init__.py"C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 307 in , line 1016 in uname<module>
+
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py", line 1127 in machine  File 
+"<frozen importlib._bootstrap>", line   File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\_private\utils.py", line 89 in 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in <module>
+  File "exec_module
+  File <frozen importlib._bootstrap>", line "<frozen importlib._bootstrap>491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_param_validation.py", line 14 in 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\testing\__init__.py", line 12 in <module><module>
+
+  File   File "<frozen importlib._bootstrap>""<frozen importlib._bootstrap>", line 491, line 491 in _call_with_frames_removed in _call_with_frames_removed
+  File 
+  File "<frozen importlib._bootstrap_external>"<frozen importlib._bootstrap_external>", line ", line 759 in 759 in exec_module
+exec_module
+  File "  File "<frozen importlib._bootstrap>"<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File , line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>""<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+, line 1342  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\__init__.py", line 746 in __getattr__
+  File  in _find_and_load_unlocked"<frozen importlib._bootstrap>
+  File ", line "<frozen importlib._bootstrap>1431" in , line _handle_fromlist
+1371 in _find_and_load  File 
+"<frozen importlib._bootstrap>  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_chunking.py", line "1429, line 11 in <module>
+  File  in _handle_fromlist
+  File ""<string>"<frozen importlib._bootstrap>, line "1, line 491 in _call_with_frames_removed in <module>
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File 
+  File "<frozen importlib._bootstrap>"C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\_internal.py"", line , line 93864 in clone_module
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\array_api_compat\numpy\__init__.py" in _load_unlocked, line 9
+  File  in <module>"<frozen importlib._bootstrap>
+  File ", line "<frozen importlib._bootstrap>1342 in _find_and_load_unlocked
+", line 491 in   File "_call_with_frames_removed
+  File <frozen importlib._bootstrap>", line 1371"<frozen importlib._bootstrap_external>", line  in _find_and_load759 in 
+  File exec_module
+"C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\__init__.py  File "", line <frozen importlib._bootstrap>"9 in <module>
+, line 938  File  in "_load_unlocked<frozen importlib._bootstrap>
+", line 491  File  in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>"<frozen importlib._bootstrap_external>", line 1342", line 759 in exec_module in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>"
+
+, line 1371 in _find_and_load
+  File Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+"<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1434 in _handle_fromlist
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_array_api.py", line 24 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\_lib\_util.py", line 17 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_sputils.py", line 10 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\_base.py", line 8 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\sparse\__init__.py", line 307 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_param_validation.py", line 14 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\_chunking.py", line 11 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+  File "<frozen importlib._bootstrap>", line 938 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1342 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1371 in _find_and_load
+  File "C:\Users\MURALI\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\__init__.py", line 9 in <module>
+  File "<frozen importlib._bootstrap>", line 491 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 759 in exec_module
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+2026-06-18 21:53:20.304 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:53:20.392 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:53:20.493 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:53:20.507 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:53:47.368 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:53:47.662 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:53:47.830 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:53:47.909 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-06-18 21:53:49.754 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.

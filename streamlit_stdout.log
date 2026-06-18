@@ -1,0 +1,22 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.0.111:8501
+  External URL: http://103.110.170.33:8501
+
+[0x7FFBCCBEE8A0] ANOMALY: meaningless REX prefix used
+[0x7FFBCD2B08B0] ANOMALY: use of REX.w is meaningless (default operand size is 64)
+[0x7FFBCD2CDF60] ANOMALY: use of REX.w is meaningless (default operand size is 64)
+[0x7FFBCCBEE8A0] ANOMALY: meaningless REX prefix used
+[0x7FFBCD2B08B0] ANOMALY: use of REX.w is meaningless (default operand size is 64)
+[0x7FFBCD2CDF60] ANOMALY: use of REX.w is meaningless (default operand size is 64)
+[0x7FFBCCBEE8A0] ANOMALY: meaningless REX prefix used
+[0x7FFBCD2B08B0] ANOMALY: use of REX.w is meaningless (default operand size is 64)
+[0x7FFBCD2CDF60] ANOMALY: use of REX.w is meaningless (default operand size is 64)
+[0x7FFBCCBEE8A0] ANOMALY: meaningless REX prefix used
+[0x7FFBCD2B08B0] ANOMALY: use of REX.w is meaningless (default operand size is 64)
+[0x7FFBCD2CDF60] ANOMALY: use of REX.w is meaningless (default operand size is 64)
